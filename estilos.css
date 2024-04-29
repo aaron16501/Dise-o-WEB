@@ -7,8 +7,10 @@ body {
     background-color: antiquewhite;
 }
 
-.principal {
-    background-color: #FFF9EF;
+.container{
+    /* background-image: url(Imagenes/dulces.jpg); */
+    background-size: 400px;
+    background-color: #E5E4E8;
 }
 
 .header img {
@@ -73,10 +75,34 @@ a:active{
 }
 
   .colheader {
-    background-image: url(Imagenes/Chuches.jpeg);
-    background-size: 500px;
+    background-image: url(Imagenes/fondopeque.jpg);
+    background-color: rgba(255, 166, 0, 0.534);
+    background-size: 230px;
     border-bottom-left-radius: 130px;
     border-bottom-right-radius: 130px;
     padding-bottom: 50px;
 
+}
+
+h1{
+    color: #F68411;
+    font-family: nav;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.desta{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.anuncio h5{
+    color: #F68411;
+    text-align: center;
+}
+
+.anuncio p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
 }
