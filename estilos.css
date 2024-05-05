@@ -119,3 +119,20 @@ h1 {
 .categ img:hover{
     transform: scale(1.1);
 }
+
+.footer{
+    background-image: url(Imagenes/fondopeque.jpg);
+    background-size: 300px;
+    filter: opacity(10px);
+}
+.datosubi{
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.footer h3,h4{
+    color: #F68411;
+    text-decoration: underline;
+}
+
+.footer h5{
+    font-size: 16px;
+}
