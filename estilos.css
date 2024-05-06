@@ -147,3 +147,51 @@ h1 {
 .footer li a:hover{
     text-decoration: underline;
 }
+
+/* Politica de privacidad */
+.polipriva h5{
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #ed9f51;
+}
+
+.polipriva p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Condiciones de compra*/
+.condcomp h5{
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #ed9f51;
+}
+
+.condcomp p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Alergias alimentarias */
+.alerali h2{
+    color: #F68411;
+    text-decoration: underline;
+}
+
+.alerali p{
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.878);
+}
+
+.alerali h5{
+    margin-left: 20px;
+    color: #F68411;
+}
+
+.alerali h5 p{
+    /* margin-left: 40px; */
+}
+
+.aleimg{
+    width: 1000px;
+}
