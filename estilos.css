@@ -261,20 +261,54 @@ h1 {
     color: #f68411;
 }
 
-.regi p{
+/* .regi p{
     font-size: 12px;
-}
+} */
 
 /* Formulario de registro */
 .registro{
     background-color: rgba(234, 194, 149, 0.455);
     border: solid 1px black; 
     border-radius: 10%;
-    /* width: auto; 
-    height: auto; */
+    width: 900px; 
+    height: auto;
 }
 
 /* .registro input{
     border: solid 1px black;
     border-style: double;
 } */
+
+.registro h2{
+    color: #F68411;
+    border-bottom: solid 1px rgb(220, 133, 27);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.registro label{
+    color: #f68411a1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.registro button{
+    color: #F68411;
+    border: solid 1px #F68411;
+    font-weight: bold;
+}
+
+.registro button:hover{
+    background-color: #f6841161;
+    color: #F68411;
+}
+
+.regi2 p{
+    color: black;
+}
+
+.regi2 p a{
+    color: #f6841194;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+}
