@@ -270,8 +270,8 @@ h1 {
     background-color: rgba(234, 194, 149, 0.455);
     border: solid 1px black; 
     border-radius: 10%;
-    width: auto; 
-    height: auto;
+    /* width: auto; 
+    height: auto; */
 }
 
 /* .registro input{
