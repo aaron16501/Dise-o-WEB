@@ -30,12 +30,12 @@ body {
 }
 
 /* Botones del nav */
-.botones,
-a {
+.botones,a {
     background-color: #FFF9EF;
     color: #F68411;
     border: 0px;
-    font-family: nav;
+    /* font-family: nav; */
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ a {
 /* Titulo productos destacados */
 h1 {
     color: #F68411;
-    font-family: nav;
+    /* font-family: nav; */
     text-decoration: underline;
     font-size: 30px;
     padding-left: 20px;
@@ -118,4 +118,217 @@ h1 {
 
 .categ img:hover{
     transform: scale(1.1);
+}
+
+.footer{
+    background-image: url(Imagenes/fondopeque.jpg);
+    background-size: 300px;
+    filter: opacity(10px);
+}
+.datosubi{
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+.datosubi li a{
+    background-color: rgba(255, 255, 255, 0);
+}
+.footer h3,h4{
+    color: #F68411;
+    text-decoration: underline;
+}
+
+.footer h5{
+    font-size: 16px;
+}
+
+.footer li a,p{
+    color: rgba(0, 0, 0, 0.777);
+    font-weight: bold;
+    margin: 0px;
+    /* color: #f8ae00; */
+}
+
+.footer li a:hover{
+    text-decoration: underline;
+}
+
+.iconsw{
+    color:green ;
+}
+
+.iconsf{
+    color: blue;
+}
+
+.iconsi{
+    color: purple;
+}
+
+.icons span svg:hover{
+    transform: scale(1.1);
+}
+
+/* Politica de privacidad */
+.polipriva h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.polipriva h5{
+    margin-left: 20px;
+    color: #ed9f51;
+}
+
+.polipriva p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Condiciones de compra*/
+.condcomp h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.condcomp h5{
+    margin-left: 20px;
+    color: #ed9f51;
+}
+
+.condcomp p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Alergias alimentarias */
+.alerali h2{
+    color: #F68411;
+    text-decoration: underline;
+}
+
+.alerali p{
+    margin-left: 10px;
+    color: rgba(41, 40, 40, 0.878);
+}
+
+.alerali h5{
+    margin-left: 20px;
+    color: #F68411;
+}
+
+.aleimg{
+    width: 1000px;
+}
+
+/* Conocenos */
+.conocenos h2,h5{
+    /* margin-left: 20px; */
+    color: #ed9f51;
+}
+
+.conocenos p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Pagina inicio de  */
+
+.inises{
+    background-color: rgba(234, 194, 149, 0.455);
+    border: solid 1px black; 
+    border-radius: 10%;
+    width: 400px; 
+    height: 300px;
+}
+
+.inises h2{
+    color: #F68411;
+    border-bottom: solid 1px rgb(220, 133, 27);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.inises label{
+    color: #f68411a1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-check label{
+    font-size: 14px;
+}
+
+.form-check input{
+    width: 16px;
+}
+
+.inises button{
+    color: #F68411;
+    border: solid 1px #F68411;
+    font-weight: bold;
+}
+
+.inises button:hover{
+    background-color: #f6841161;
+    color: #F68411;
+}
+
+.inises p a{
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #f6841180;
+}
+
+.inises p a:hover{
+    color: #f68411;
+}
+
+/* .regi p{
+    font-size: 12px;
+} */
+
+/* Formulario de registro */
+.registro{
+    background-color: rgba(234, 194, 149, 0.455);
+    border: solid 1px black; 
+    border-radius: 10%;
+    width: 900px; 
+    height: auto;
+}
+
+/* .registro input{
+    border: solid 1px black;
+    border-style: double;
+} */
+
+.registro h2{
+    color: #F68411;
+    border-bottom: solid 1px rgb(220, 133, 27);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.registro label{
+    color: #f68411a1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.registro button{
+    color: #F68411;
+    border: solid 1px #F68411;
+    font-weight: bold;
+}
+
+.registro button:hover{
+    background-color: #f6841161;
+    color: #F68411;
+}
+
+.regi2 p{
+    color: black;
+}
+
+.regi2 p a{
+    color: #f6841194;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
 }
