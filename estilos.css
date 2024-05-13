@@ -128,6 +128,10 @@ h1 {
 .datosubi{
     background-color: rgba(255, 255, 255, 0.74);
 }
+
+.datosubi li a{
+    background-color: rgba(255, 255, 255, 0);
+}
 .footer h3,h4{
     color: #F68411;
     text-decoration: underline;
@@ -146,6 +150,22 @@ h1 {
 
 .footer li a:hover{
     text-decoration: underline;
+}
+
+.iconsw{
+    color:green ;
+}
+
+.iconsf{
+    color: blue;
+}
+
+.iconsi{
+    color: purple;
+}
+
+.icons span svg:hover{
+    transform: scale(1.1);
 }
 
 /* Politica de privacidad */
