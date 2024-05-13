@@ -7,12 +7,6 @@ body {
     background-color: antiquewhite;
 }
 
-.container {
-    /* background-image: url(Imagenes/dulces.jpg); */
-    /* background-size: 400px; */
-    /* background-color: #E5E4E8; */
-}
-
 /* Logo */
 .header img {
     width: 300px;
@@ -84,17 +78,11 @@ body {
 /* Fondo blanco transparente de las secciones */
 .desta {
     background-color: rgba(255, 255, 255, 0.356);
-    /* background-color: #b2e95e; */
 }
 
-/* .carrusel img{
-    margin-bottom: 0px;
-} */
-
-/* Titulo productos destacados */
+/* Titulo de secciones */
 h1 {
     color: #F68411;
-    /* font-family: nav; */
     text-decoration: underline;
     font-size: 30px;
     padding-left: 20px;
@@ -110,8 +98,10 @@ h1 {
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 5px
 }
 
+/* Seccion de categorias */
 .categ img{
     border: solid 1px #F68411;
 }
@@ -120,6 +110,7 @@ h1 {
     transform: scale(1.1);
 }
 
+/* Footer */
 .footer{
     background-image: url(Imagenes/fondopeque.jpg);
     background-size: 300px;
@@ -137,15 +128,10 @@ h1 {
     text-decoration: underline;
 }
 
-.footer h5{
-    font-size: 16px;
-}
-
 .footer li a,p{
     color: rgba(0, 0, 0, 0.777);
     font-weight: bold;
     margin: 0px;
-    /* color: #f8ae00; */
 }
 
 .footer li a:hover{
@@ -165,7 +151,7 @@ h1 {
 }
 
 .icons span svg:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* Politica de privacidad */
@@ -198,7 +184,29 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Alergias alimentarias */
+/* Formulario de contacto */
+.formcontac label p,.formcontac .gen p{
+    color: #ed9f51;
+}
+
+.formcontac .check label{
+    color: #ed9f51;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.formcontac button{
+    color: #F68411;
+    border: solid 1px #F68411;
+    font-weight: bold;
+}
+
+.formcontac button:hover{
+    background-color: #f6841161;
+    color: #F68411;
+}
+
+/* InfoAlergias */
 .alerali h2{
     color: #F68411;
     text-decoration: underline;
@@ -281,10 +289,6 @@ h1 {
     color: #f68411;
 }
 
-/* .regi p{
-    font-size: 12px;
-} */
-
 /* Formulario de registro */
 .registro{
     background-color: rgba(234, 194, 149, 0.455);
@@ -293,11 +297,6 @@ h1 {
     width: 900px; 
     height: auto;
 }
-
-/* .registro input{
-    border: solid 1px black;
-    border-style: double;
-} */
 
 .registro h2{
     color: #F68411;
