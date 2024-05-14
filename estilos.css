@@ -66,7 +66,6 @@ body {
     background-color: #FFF9EF;
     color: #F68411;
     border: 0px;
-    font-family: nav;
     text-decoration: none;
 }
 
@@ -192,7 +191,17 @@ h1 {
 .formcontac .check label{
     color: #ed9f51;
     font-weight: bold;
+}
+
+.formcontac .check a{
+    background-color: rgba(255, 255, 255, 0);
     text-decoration: underline;
+    color:  #ed9f51;;
+    font-weight: bold;
+}
+
+.formcontac .check a:hover{
+    color: #F68411;
 }
 
 .formcontac button{
@@ -228,7 +237,6 @@ h1 {
 
 /* Conocenos */
 .conocenos h2,h5{
-    /* margin-left: 20px; */
     color: #ed9f51;
 }
 
@@ -237,7 +245,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Pagina inicio de  */
+/* Pagina inicio de sesion */
 
 .inises{
     background-color: rgba(234, 194, 149, 0.455);
@@ -319,6 +327,17 @@ h1 {
 
 .registro button:hover{
     background-color: #f6841161;
+    color: #F68411;
+}
+
+.registro a{
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline;
+    color: #f68411a1;
+    font-weight: bold;
+}
+
+.registro a:hover{
     color: #F68411;
 }
 
